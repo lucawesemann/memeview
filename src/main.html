@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<title>Seriöse Website</title>
+<link rel="icon" type="image/svg" href="data/fav.svg"/>
+
+</head>
+
+<body>
+
+<video muted id="Video" onended="reCall();" src="data/ricardo.mp4" type="video/mp4" style=" min-width: 100%;
+min-height: 100%; width: auto; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);" playsinline>
+</video>
+
+
+<div class="contentDiv" id="startDiv">
+
+  <h1>Seriöse Website</h1>
+  <audio id="audio">
+    <source src=" " type="audio/mp3">
+  </audio>
+  <p>Bitte drücke auf "Starten" um die Website zu aktivieren. <br> Achtung: Es können laute Videos abgespielt werden, außerdem besteht eine Epilepsie Warnung!</p>
+  <p id="currentStock">Fehler</p>
+  <button id="startBtn" onclick="startMeme()">Starten</button>
+
+</div>
+
+
+<div class="contentDiv" id="factDiv">
+
+  <h1>Seriöse Website</h1>
+  <p id="change">JavaScript Error</p>
+  <button id="reCallBtn" onclick="reCall()">Nächstes Meme</button>
+  <button id="stopBtn" onclick="stopVideo()">Pause</button>
+</div>
+
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

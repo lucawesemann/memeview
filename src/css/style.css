@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-image: url("../data/business.jpg");
+  background-repeat: no-repeat;
+
+}
+#Video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.contentDiv {
+  position: fixed;
+  padding-bottom: -10;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  margin-top: 350px;
+  text-align: center;
+}
+#startBtn, #reCallBtn, #stopBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+#startBtn:hover, #reCallBtn:hover, #stopBtn:hover {
+  background: #ddd;
+  color: black;
+}
